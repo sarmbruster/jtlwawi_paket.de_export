@@ -1,0 +1,42 @@
+# Sendungsdatenexport aus JTL WAWI für paket.de #
+
+This project contains an export filter for https://www.jtl-software.de/Warenwirtschaft-JTL-Wawi[JTL Wawi] to use http://paket.de as delivery service. This project is licensed under the http://www.wtfpl.net/[WTFPL] license. 
+
+Since this combo is mostly used in Germany only, the rest of this document is German language only. 
+
+Leider ist bei JTL keine funktionierendere Sendungs-Export-Vorlage für den DHL Dienst Paket.de dabei. Paket.de ist vor allem für Shops mit geringem Sendungsaufkommen geeignet. Für hohe Sendungsvolumina stellt DHL andere Produkte bereit.
+
+
+## Installation ##
+
+In JTL WAWI  `Einstellungen`, `Import-/Export-Einstellungen`, `Sendungsdatenexportvorlagen WAWI` auswählen. Dort über den Button `Import` die Datei link:paket.de_vorlage.xml[] auswählen und importieren.
+
+## Benutzung ##
+
+Im Versandbereich der JTL-WAWI auf einen Auftrag öffnen, dort `Versandadressen exportieren` anklicken und in der Dropdown-Box auf `paket.de`. Nach dem Click auf `Druck/Versand` muss der Name der Export-Datei angegeben werden.
+
+Die so erzeuge Datei muss wie unten angegeben editiert werden und kann danach im https://www.paket.de/pkp/appmanager/pkp/desktop?_nfpb=true&_pageLabel=pkp_portal_page_myshipping[CSV-Import bei paket.de] verwendet werden.
+
+### manuelles anpassen der Exportdatei ###
+
+In der von JTL erzeugten Export-Datei müssen vor dem Hochland in http://paket.de ggf. folgende Spalten manuell überarbeitet werden:
+
+|====
+| RECV_COUNTRY | Leider exportiert JTL nur den Ländercode mit 2 Zeichen ("DE"), hier muss aber der mit 3 Zeichen stehen ("DEU") 
+| PRODUCT | Produktschlüssel von DHL für diese Sendung (siehe unten)
+| COUPON | optional Coupon bei Verwendung von bestehenden Coupons
+|====
+
+### zulässige DHL Produktschlüssel ###
+
+|=====
+| PAECK.DEU | Deutschland Päckchen 
+| PAK02.DEU | Deutschland Paket 2 kg 
+| PAK10.DEU | Deutschland Paket 10 kg 
+| PAK20.DEU | Deutschland Paket 20 kg 
+| PAK31.DEU | Deutschland Paket 31,5 kg 
+| PAECK.EU | EU Päckchen 
+| PAK05.EU | EU Paket 5 kg 
+| PAK10.EU | EU Paket 10 kg 
+| PAK20.EU | EU Paket 20 kg 
+|=====

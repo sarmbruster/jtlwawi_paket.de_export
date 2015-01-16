@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tAdressExportVorlage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <cName>paket.de</cName>
+  <cBeschreibung>CSV Export für Paket.de - bitte die Spalten RECV_COUNTRY PRODUCT und COUPON manuell einarbeiten</cBeschreibung>
+  <cTrennzeichen>;</cTrennzeichen>
+  <cKomma />
+  <nKopfzeile>1</nKopfzeile>
+  <nZusatzzeile>0</nZusatzzeile>
+  <tAdressExportFelder>
+    <Feld>
+      <nFeldNr>0</nFeldNr>
+      <cPrefix />
+      <cWert>$#Firma_Name#$</cWert>
+      <cSuffix />
+      <cStandardWert />
+      <cName>SEND_NAME1</cName>
+      <nMaxlen>0</nMaxlen>
+      <cZusatzzeile />
+    </Feld>
+    <Feld>
+      <nFeldNr>1</nFeldNr>
+      <cPrefix />
+      <cWert>$#Firma_Inhaber#$</cWert>
+      <cSuffix />
+      <cStandardWert />
+      <cName>SEND_NAME2</cName>
+      <nMaxlen>0</nMaxlen>
+      <cZusatzzeile />
+    </Feld>
+    <Feld>
+      <nFeldNr>2</nFeldNr>
+      <cPrefix />
+      <cWert>$#Firma_StrasseOHNr#$</cWert>
+      <cSuffix />
+      <cStandardWert />
+      <cName>SEND_STREET</cName>
+      <nMaxlen>0</nMaxlen>
+      <cZusatzzeile />
+    </Feld>
+    <Feld>
+      <nFeldNr>3</nFeldNr>
+      <cPrefix />
+      <cWert>$#Firma_HausNr#$</cWert>
+      <cSuffix />
+      <cStandardWert />
+      <cName>SEND_HOUSENUMBER</cName>
+      <nMaxlen>0</nMaxlen>
+      <cZusatzzeile />
+    </Feld>
+    <Feld>
+      <nFeldNr>4</nFeldNr>
+      <cPrefix />
+      <cWert>$#Firma_PLZ#$</cWert>
+      <cSuffix />
+      <cStandardWert />
+      <cName>SEND_PLZ</cName>
+      <nMaxlen>0</nMaxlen>
+      <cZusatzzeile />
+    </Feld>
+    <Feld>
+      <nFeldNr>5</nFeldNr>
+      <cPrefix />
+      <cWert>$#Firma_Ort#$</cWert>
+      <cSuffix />
+      <cStandardWert />
+      <cName>SEND_CITY</cName>
+      <nMaxlen>0</nMaxlen>
+      <cZusatzzeile />
+    </Feld>
+    <Feld>
+      <nFeldNr>6</nFeldNr>
+      <cPrefix />
+      <cWert>$#Firma_LandISO3#$</cWert>
+      <cSuffix />
+      <cStandardWert />
+      <cName>SEND_COUNTRY</cName>
+      <nMaxlen>0</nMaxlen>
+      <cZusatzzeile />
+    </Feld>
+    <Feld>
+      <nFeldNr>7</nFeldNr>
+      <cPrefix />
+      <cWert>$#Kunde_Liefer_GenName2#$</cWert>
+      <cSuffix />
+      <cStandardWert />
+      <cName>RECV_NAME1</cName>
+      <nMaxlen>0</nMaxlen>
+      <cZusatzzeile />
+    </Feld>
+    <Feld>
+      <nFeldNr>8</nFeldNr>
+      <cPrefix />
+      <cWert>$#Kunde_Liefer_GenName1#$</cWert>
+      <cSuffix />
+      <cStandardWert />
+      <cName>RECV_NAME2</cName>
+      <nMaxlen>0</nMaxlen>
+      <cZusatzzeile />
+    </Feld>
+    <Feld>
+      <nFeldNr>9</nFeldNr>
+      <cPrefix />
+      <cWert>$#Kunde_Liefer_StrasseOHNr#$</cWert>
+      <cSuffix />
+      <cStandardWert />
+      <cName>RECV_STREET</cName>
+      <nMaxlen>0</nMaxlen>
+      <cZusatzzeile />
+    </Feld>
+    <Feld>
+      <nFeldNr>10</nFeldNr>
+      <cPrefix />
+      <cWert>$#Kunde_Liefer_HausNr#$</cWert>
+      <cSuffix />
+      <cStandardWert />
+      <cName>RECV_HOUSENUMBER</cName>
+      <nMaxlen>0</nMaxlen>
+      <cZusatzzeile />
+    </Feld>
+    <Feld>
+      <nFeldNr>11</nFeldNr>
+      <cPrefix />
+      <cWert>$#Kunde_Liefer_PLZ#$</cWert>
+      <cSuffix />
+      <cStandardWert />
+      <cName>RECV_PLZ</cName>
+      <nMaxlen>0</nMaxlen>
+      <cZusatzzeile />
+    </Feld>
+    <Feld>
+      <nFeldNr>12</nFeldNr>
+      <cPrefix />
+      <cWert>$#Kunde_Liefer_Ort#$</cWert>
+      <cSuffix />
+      <cStandardWert />
+      <cName>RECV_CITY</cName>
+      <nMaxlen>0</nMaxlen>
+      <cZusatzzeile />
+    </Feld>
+    <Feld>
+      <nFeldNr>13</nFeldNr>
+      <cPrefix />
+      <cWert>&lt;leer&gt;</cWert>
+      <cSuffix />
+      <cStandardWert>DEU</cStandardWert>
+      <cName>RECV_COUNTRY</cName>
+      <nMaxlen>0</nMaxlen>
+      <cZusatzzeile />
+    </Feld>
+    <Feld>
+      <nFeldNr>14</nFeldNr>
+      <cPrefix />
+      <cWert />
+      <cSuffix />
+      <cStandardWert>PAK02.DEU</cStandardWert>
+      <cName>PRODUCT</cName>
+      <nMaxlen>0</nMaxlen>
+      <cZusatzzeile />
+    </Feld>
+    <Feld>
+      <nFeldNr>15</nFeldNr>
+      <cPrefix />
+      <cWert />
+      <cSuffix />
+      <cStandardWert />
+      <cName>COUPON</cName>
+      <nMaxlen>0</nMaxlen>
+      <cZusatzzeile />
+    </Feld>
+  </tAdressExportFelder>
+</tAdressExportVorlage>
