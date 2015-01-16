@@ -17,6 +17,8 @@ Im Versandbereich der JTL-WAWI auf einen Auftrag öffnen, dort `Versandadressen 
 
 Die so erzeuge Datei muss wie unten angegeben editiert werden und kann danach im https://www.paket.de/pkp/appmanager/pkp/desktop?_nfpb=true&_pageLabel=pkp_portal_page_myshipping[CSV-Import bei paket.de] verwendet werden.
 
+Die Rückübertragung der Paket-Trackingnummern ist hier noch eine manuelle Tätigkeit.
+
 ### manuelles anpassen der Exportdatei ###
 
 In der von JTL erzeugten Export-Datei müssen vor dem Hochland in http://paket.de ggf. folgende Spalten manuell überarbeitet werden:
